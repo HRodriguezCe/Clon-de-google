@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------------------------- HEADER */
+
+nav{
+    margin: 16px 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end   ;
+}
+
+nav a, i{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    margin: 0 7px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #5f6368
+}
+
+.icon-apps {
+    font-size: 22px;
+  }
+
+nav a button{
+    background-color: #4285F4;
+    color: white;
+    border: 0;
+    padding: 7px 14px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+/* ------------------------------------- MAIN */
+
+.main{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    margin-top: 20px;
+    border: 1px solid rgb(221, 220, 220);
+    width: 550px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.search:hover{
+    box-shadow: 0px 1px 6px 0px #c2c2c4;
+    border-color: rgb(230, 230, 230);
+}
+
+.search input{
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 90%;
+}
+
+.buttons{
+    margin-top: 25px;
+    display: flex;
+}
+
+
+.button button{
+    border: none;
+    color: #585858;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.button button:hover{
+    color: black;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.idiom{
+    font-size: 13px;
+    color: #222222;
+}
+
+.idiom a{
+    text-decoration: none;
+}
+
+.idiom a:hover{
+    text-decoration: underline;
+}
+
+/* ------------------------------------- FOOTER */
+
+footer{
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.info, .country{
+    border-top: 1px solid rgb(233, 233, 233);
+    margin: 0;
+}
+
+.country{
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.left li, .right li{
+    display: inline;
+    margin-right: 20px;
+    ;
+}
+
+.left li a, .right li a{
+    text-decoration: none;
+    color: #5f6368
+}
+
+.left li a:hover, .right li a:hover{
+    text-decoration: underline;
+    color: #5f6368
+}

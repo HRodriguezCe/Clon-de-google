@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('icomoon.eot?11g3pp');
+    src:  url('icomoon.eot?11g3pp#iefix') format('embedded-opentype'),
+      url('icomoon.ttf?11g3pp') format('truetype'),
+      url('icomoon.woff?11g3pp') format('woff'),
+      url('icomoon.svg?11g3pp#icomoon') format('svg');
+  }
+  
+  [class^="icon-"]{
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;    
+  }
+  
+.icon-apps:before {
+    content: "\e900";
+}
